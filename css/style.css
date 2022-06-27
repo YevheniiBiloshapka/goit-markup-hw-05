@@ -524,6 +524,7 @@ list-style: none;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
 				0px 4px 4px rgba(0, 0, 0, 0.06),
 				1px 4px 6px rgba(0, 0, 0, 0.16);
+				
 }
 
 .project-link{
@@ -539,34 +540,34 @@ text-decoration: none;
 	position: absolute;
 	background-color: rgba(33, 150, 243, 0.9);
 	
-	opacity: 1;
+	opacity: 0;
 }
 /* Появление */
-/* .project:hover .project-link::before{
+.project:hover .project-link::before{
 	opacity: 1;
 }
 .project:hover .project-text{
 	opacity: 1;
-} */
-
-.project-img{
-	margin-bottom: 20px;
 }
-
-.project-text{
+.project-text {
 	width: 322px;
 	position: absolute;
-	top:50%;
-	left:50%;
+	top: 50%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 	color: var(--white-color);
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 1.5;
 	letter-spacing: 0.03em;
-	opacity: 1;
+	opacity: 0;
 
 }
+.project-img{
+	margin-bottom: 20px;
+}
+
+
 
 
 
